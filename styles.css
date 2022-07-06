@@ -162,8 +162,8 @@ header {
   background-color: #ffffff;
   -webkit-box-shadow: 1px 1px 10px #7e7e7e;
           box-shadow: 1px 1px 10px #7e7e7e;
-  -webkit-transform: translateX(105%);
-          transform: translateX(105%);
+  -webkit-transform: translateX(200vw);
+          transform: translateX(200vw);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   z-index: 10;
@@ -193,6 +193,7 @@ header {
   border: none;
   font-size: 0.9rem;
   margin-top: 10px;
+  display: initial;
 }
 
 .bottom-header nav .search-section .search .search-bar input[type="search"]::-webkit-input-placeholder {
@@ -256,7 +257,12 @@ header {
   transition: all 300ms ease;
 }
 
-.bottom-header nav .menu-container .menu-title {
+.bottom-header nav .menu-container .test-menu {
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.bottom-header nav .menu-container .test-menu .menu-title {
   background-color: #b2b2b2;
   border: none;
   text-align: center;
@@ -268,26 +274,26 @@ header {
   color: #ffffff;
   height: 70px;
   line-height: 70px;
-  margin: none;
+  margin: 0;
   min-width: 250px;
   max-width: 450px;
   width: 80vw;
   position: fixed;
 }
 
-.bottom-header nav .menu-container .menu-title label {
+.bottom-header nav .menu-container .test-menu .menu-title label {
   position: absolute;
   right: 20px;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
 
-.bottom-header nav .menu-container .menu-title label:hover {
+.bottom-header nav .menu-container .test-menu .menu-title label:hover {
   color: #a32a2a;
   cursor: pointer;
 }
 
-.bottom-header nav .menu-container .mobile-menu {
+.bottom-header nav .menu-container .test-menu .mobile-menu {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   -webkit-margin-before: 70px;
@@ -297,7 +303,7 @@ header {
   overflow-x: hidden;
 }
 
-.bottom-header nav .menu-container .mobile-menu li {
+.bottom-header nav .menu-container .test-menu .mobile-menu li {
   padding: 20px 25px 20px 25px;
   border-top: solid 1px #d9d5cd;
   border-left: 3px solid #ffffff;
@@ -305,17 +311,17 @@ header {
   line-height: 15px;
 }
 
-.bottom-header nav .menu-container .mobile-menu li:hover {
+.bottom-header nav .menu-container .test-menu .mobile-menu li:hover {
   cursor: pointer;
   border-left: 3px solid #5e5e5d;
   background-color: #efefef;
 }
 
-.bottom-header nav .menu-container .mobile-menu li input[type="checkbox"]:checked ~ ul {
+.bottom-header nav .menu-container .test-menu .mobile-menu li input[type="checkbox"]:checked ~ ul {
   border-left: 3px solid #5e5e5d;
 }
 
-.bottom-header nav .menu-container .mobile-menu li ul {
+.bottom-header nav .menu-container .test-menu .mobile-menu li ul {
   padding: 20px 25px 0px 25px;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
@@ -326,26 +332,26 @@ header {
   width: 100%;
 }
 
-.bottom-header nav .menu-container .mobile-menu li ul:hover {
+.bottom-header nav .menu-container .test-menu .mobile-menu li ul:hover {
   border-left: 3px solid;
 }
 
-.bottom-header nav .menu-container .mobile-menu li ul li:last-child {
+.bottom-header nav .menu-container .test-menu .mobile-menu li ul li:last-child {
   padding-bottom: 0px;
 }
 
-.bottom-header nav .menu-container .mobile-menu li ul li {
+.bottom-header nav .menu-container .test-menu .mobile-menu li ul li {
   border-left: #ffffff;
   font-size: 0.9rem;
   padding-left: 40px;
   width: 100%;
 }
 
-.bottom-header nav .menu-container .mobile-menu li ul li:hover {
+.bottom-header nav .menu-container .test-menu .mobile-menu li ul li:hover {
   border-left: none;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,44 +362,44 @@ header {
       flex-wrap: wrap;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level label img {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level label img {
   height: 15px;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level label img:hover {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level label img:hover {
   cursor: pointer;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level ul {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level ul {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level > input[type="checkbox"]:checked ~ ul {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level > input[type="checkbox"]:checked ~ ul {
   display: inline-block;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level > input[type="checkbox"]:checked + label {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level > input[type="checkbox"]:checked + label {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-first-level > input[type="checkbox"]:checked + .menu-first-level ul {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-first-level > input[type="checkbox"]:checked + .menu-first-level ul {
   background-color: #efefef;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-space {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-space {
   height: 150px;
 }
 
-.bottom-header nav .menu-container .mobile-menu .menu-space:hover {
+.bottom-header nav .menu-container .test-menu .mobile-menu .menu-space:hover {
   background-color: #ffffff;
   border-left: none;
 }
 
 .bottom-header nav .menu-container .socials {
   width: 80vw;
-  height: 50px;
+  height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -829,7 +835,8 @@ header {
   overflow: hidden;
 }
 
-.news-section .news1 .news-image:hover .overlay {
+.news-section .news1 .news-image:hover .overlay,
+.news-section .news1 .news-image:focus-within .overlay {
   -webkit-transform: translate(calc(100% + 50px), calc(100% + 50px));
           transform: translate(calc(100% + 50px), calc(100% + 50px));
   -webkit-transition: all 1500ms ease;
@@ -905,7 +912,8 @@ header {
   overflow: hidden;
 }
 
-.news-section .news2 .news-image:hover .overlay {
+.news-section .news2 .news-image:hover .overlay,
+.news-section .news2 .news-image:focus-within .overlay {
   -webkit-transform: translate(calc(100% + 50px), calc(100% + 50px));
           transform: translate(calc(100% + 50px), calc(100% + 50px));
   -webkit-transition: all 1500ms ease;
@@ -1447,8 +1455,8 @@ header {
     background-size: 400%;
     background-repeat: no-repeat;
     background-position: bottom right;
-    -webkit-transition: all 300ms ease-in;
-    transition: all 300ms ease-in;
+    -webkit-transition: all 400ms ease-in;
+    transition: all 400ms ease-in;
   }
   .intro-widescreen .intro-bottom div.anchor-points div:hover, .intro-widescreen .intro-bottom div.anchor-points div:focus-within {
     background-position: bottom left;
@@ -1521,6 +1529,9 @@ header {
   .intro-widescreen .intro-bottom div.anchor-points div a {
     text-decoration: none;
     color: #1d1d1b;
+  }
+  .intro-widescreen .intro-bottom div.anchor-points div a:hover {
+    color: #000000;
   }
   .cards {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1665,11 +1676,21 @@ header {
     display: block;
     position: absolute;
     left: 155px;
+    z-index: 100;
+  }
+  .bottom-header nav > .socials:hover {
+    cursor: pointer;
   }
   .bottom-header nav > .socials svg:hover {
     fill: #efefef;
   }
   .information h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .bottom-header nav .desktop-menu {
     font-size: 2rem;
   }
 }

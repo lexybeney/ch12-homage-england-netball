@@ -24,7 +24,7 @@
   <body>
     <header>
       <div>
-        <div class="top-header" id="top-of-page">
+        <div class="top-header">
           <a href="#"
             ><img
               class="vitality"
@@ -51,17 +51,6 @@
           /></a>
         </div>
       </div>
-
-      <!-- <div class="test-outer">
-        <div class="test">
-          <input type="search" placeholder="Search ..." />
-          <img
-            class="right-arrow"
-            src="./images/right-arrow.svg"
-            alt="Search bar enter"
-          />
-        </div>
-      </div> -->
 
       <div class="bottom-header">
         <nav>
@@ -254,139 +243,146 @@
               <div class="burger-line"></div>
             </label>
             <input type="checkbox" name="burger" id="burger" />
+
             <div class="menu-container">
-              <div class="menu-title">
-                MENU
-                <label for="burger">X</label>
+              <div class="test-menu">
+                <div class="menu-title">
+                  MENU
+                  <label for="burger">X</label>
+                </div>
+                <ul class="mobile-menu">
+                  <li>HOME</li>
+                  <li class="menu-first-level">
+                    NEWS
+                    <input
+                      type="checkbox"
+                      id="expand-menu"
+                      name="expand-menu"
+                    />
+                    <label for="expand-menu"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul class="menu-second-level">
+                      <li>NEWS ARCHIVE</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    ENGLAND
+                    <input type="checkbox" id="england" name="england" />
+                    <label for="england"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>VITALITY ROSES</li>
+                      <li>FUTURE ROSES</li>
+                      <li>PATHWAY</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    COMPETITIONS
+                    <input
+                      type="checkbox"
+                      id="competitions"
+                      name="competitions"
+                    />
+                    <label for="competitions"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>VITALITY NETBALL SUPERLEAGUE</li>
+                      <li>PREMIER LEAGUES</li>
+                      <li>NPL</li>
+                      <li>NATIONAL CLUBS</li>
+                      <li>NATIONAL SCHOOLS FINALS</li>
+                      <li>PARANETBALL CHAMPIONSHIP</li>
+                      <li>SET UP A LEAGUE</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    PLAY NETBALL
+                    <input type="checkbox" id="play" name="play" />
+                    <label for="play"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>PLAY NETBALL NEAR YOU</li>
+                      <li>EVENTS</li>
+                      <li>VIRTUAL NETBALL CLUB</li>
+                      <li>MEN'S & MIXED NETBALL</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    GET INVOLVED
+                    <input
+                      type="checkbox"
+                      id="get-involved"
+                      name="get-involved"
+                    />
+                    <label for="get-involved"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>COACH</li>
+                      <li>OFFICIATE</li>
+                      <li>VOLUNTEER</li>
+                      <li>PARANETBALL</li>
+                      <li>SET UP A CLUB</li>
+                      <li>SET UP A LEAGUE</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    SUPPORT
+                    <input type="checkbox" id="support" name="support" />
+                    <label for="support"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>FULL HELP CENTRE</li>
+                      <li>SUPPORT FOR INDIVIDUALS</li>
+                      <li>SUPPORT FOR REGISTERED ORGANISATION</li>
+                      <li>DIVERSITY & BELONGING</li>
+                      <li>FACILITY SUPPORT</li>
+                      <li>REGIONAL CONTACT LIST</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    GOVERNANCE
+                    <input type="checkbox" id="governance" name="governance" />
+                    <label for="governance"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>SAFEGUARDING</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    MEMBERSHIP
+                    <input type="checkbox" id="membership" name="membership" />
+                    <label for="membership"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>BECOME A MEMBER</li>
+                      <li>EDICATIONAL ORGANISATION MEMBERSHIP</li>
+                      <li>LOG IN TO ENGAGE</li>
+                    </ul>
+                  </li>
+                  <li class="menu-first-level">
+                    TICKETS
+                    <input type="checkbox" id="tickets" name="tickets" />
+                    <label for="tickets"
+                      ><img src="./images/arrowhead.svg" alt="Down arrowhead"
+                    /></label>
+                    <ul>
+                      <li>WHAT'S ON</li>
+                      <li>HOSPITALITY TICKETS</li>
+                      <li>MY ACCOUNT - LOGIN</li>
+                    </ul>
+                  </li>
+                  <li>STORE</li>
+                  <li class="menu-space"></li>
+                </ul>
               </div>
-              <ul class="mobile-menu">
-                <li>HOME</li>
-                <li class="menu-first-level">
-                  NEWS
-                  <input type="checkbox" id="expand-menu" name="expand-menu" />
-                  <label for="expand-menu"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul class="menu-second-level">
-                    <li>NEWS ARCHIVE</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  ENGLAND
-                  <input type="checkbox" id="england" name="england" />
-                  <label for="england"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>VITALITY ROSES</li>
-                    <li>FUTURE ROSES</li>
-                    <li>PATHWAY</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  COMPETITIONS
-                  <input
-                    type="checkbox"
-                    id="competitions"
-                    name="competitions"
-                  />
-                  <label for="competitions"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>VITALITY NETBALL SUPERLEAGUE</li>
-                    <li>PREMIER LEAGUES</li>
-                    <li>NPL</li>
-                    <li>NATIONAL CLUBS</li>
-                    <li>NATIONAL SCHOOLS FINALS</li>
-                    <li>PARANETBALL CHAMPIONSHIP</li>
-                    <li>SET UP A LEAGUE</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  PLAY NETBALL
-                  <input type="checkbox" id="play" name="play" />
-                  <label for="play"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>PLAY NETBALL NEAR YOU</li>
-                    <li>EVENTS</li>
-                    <li>VIRTUAL NETBALL CLUB</li>
-                    <li>MEN'S & MIXED NETBALL</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  GET INVOLVED
-                  <input
-                    type="checkbox"
-                    id="get-involved"
-                    name="get-involved"
-                  />
-                  <label for="get-involved"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>COACH</li>
-                    <li>OFFICIATE</li>
-                    <li>VOLUNTEER</li>
-                    <li>PARANETBALL</li>
-                    <li>SET UP A CLUB</li>
-                    <li>SET UP A LEAGUE</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  SUPPORT
-                  <input type="checkbox" id="support" name="support" />
-                  <label for="support"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>FULL HELP CENTRE</li>
-                    <li>SUPPORT FOR INDIVIDUALS</li>
-                    <li>SUPPORT FOR REGISTERED ORGANISATION</li>
-                    <li>DIVERSITY & BELONGING</li>
-                    <li>FACILITY SUPPORT</li>
-                    <li>REGIONAL CONTACT LIST</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  GOVERNANCE
-                  <input type="checkbox" id="governance" name="governance" />
-                  <label for="governance"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>SAFEGUARDING</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  MEMBERSHIP
-                  <input type="checkbox" id="membership" name="membership" />
-                  <label for="membership"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>BECOME A MEMBER</li>
-                    <li>EDICATIONAL ORGANISATION MEMBERSHIP</li>
-                    <li>LOG IN TO ENGAGE</li>
-                  </ul>
-                </li>
-                <li class="menu-first-level">
-                  TICKETS
-                  <input type="checkbox" id="tickets" name="tickets" />
-                  <label for="tickets"
-                    ><img src="./images/arrowhead.svg" alt="Down arrowhead"
-                  /></label>
-                  <ul>
-                    <li>WHAT'S ON</li>
-                    <li>HOSPITALITY TICKETS</li>
-                    <li>MY ACCOUNT - LOGIN</li>
-                  </ul>
-                </li>
-                <li>STORE</li>
-                <li class="menu-space"></li>
-              </ul>
               <div class="socials">
                 <a href="#">
                   <svg
@@ -455,7 +451,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="top-of-page">
       <div class="intro">
         <svg width="100vw" height="300px">
           <ellipse cx="50%" cy="100%" rx="60%" ry="280" fill="#ffffff" />
