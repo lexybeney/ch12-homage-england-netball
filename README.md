@@ -21,7 +21,7 @@ In order to accurately reproduce the site, I used the following languages and te
   - Pseudo-classes
   - Pseudo-elements
   - Positioning
-- SASS
+- SCSS
   - Mixins with arguments
   - Nesting
   - Variables
