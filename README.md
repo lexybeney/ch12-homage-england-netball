@@ -28,7 +28,7 @@ In order to accurately reproduce the site, I used the following languages and te
 
 Please find below a link to the original site and to my copycat version.
 
-- [England Netball Homepage](https://www.englandnetball.co.uk/)
-- [My Copycat Site](https://62c5cef10eba030d4dce8921--mellifluous-fox-742ea1.netlify.app/-)
+- <a href="https://www.englandnetball.co.uk" target="_blank">England Netball Homepage</a>
+- <a href="https://62c5cef10eba030d4dce8921--mellifluous-fox-742ea1.netlify.app/">My Copycat Site</a>
 
 There are elements to my copycat that I would like to work on and improve as my technical skills evolve, through adding JavaScript to elements that relied on heavy CSS. For example, the search bar and burger menu.
