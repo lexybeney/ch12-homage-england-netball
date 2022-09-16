@@ -2,7 +2,7 @@
 
 ### The brief of this project was to create a copycat version of a website homepage of my chosing. The idea was to make the copycat site as close to the original as possible, including the animation elements and responsive nature of the site.
 
-This project was set as part of the web development course I undertook by {the jump} school. I chose the England Netball website, as it seemed particularly strong in its responsive elements and provide me with enough challenge to demonstrate my skills.
+This project was set as part of the web development course I undertook by {the jump} school. I chose the England Netball website, as it seemed particularly strong in its responsive elements and provided me with enough challenge to demonstrate my skills.
 
 At the point in my course of creating this copycat, I have only learnt HTML and CSS.
 
