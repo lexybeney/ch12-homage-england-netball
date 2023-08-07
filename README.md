@@ -29,6 +29,6 @@ In order to accurately reproduce the site, I used the following languages and te
 Please find below a link to the original site and to my copycat version.
 
 - <a href="https://www.englandnetball.co.uk" target="_blank">England Netball Homepage</a>
-- <a href="https://englandnetball.alexisbeney.co.uk">My Copycat Site</a>
+- <a href="https://englandnetball.alexisbeney.co.uk" target="_blank">My Copycat Site</a>
 
 There are elements to my copycat that I would like to work on and improve as my technical skills evolve, through adding JavaScript to elements that relied on heavy CSS. For example, the search bar and burger menu.
